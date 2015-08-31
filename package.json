@@ -1,6 +1,6 @@
 {
   "name": "unit-synonyms-length",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Length units synonyms",
   "main": "src/index.js",
   "scripts": {
