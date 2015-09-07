@@ -4,7 +4,6 @@
 
 require('should');
 
-var forOwn = require('for-own');
 var lenght = require('../src/');
 var units = lenght.units;
 var synonyms = lenght.synonyms;
@@ -17,8 +16,8 @@ describe('lenght units synonyms', function() {
   it('should include synonyms for supported units only', function() {
     var unitsWithSynonyms = {};
 
-    forOwn(synonyms, function(unit) {
-      unitsWithSynonyms[unit] = true;
+    Object.keys(synonyms).forEach(function(unit) {
+      unitsWithSynonyms[synonyms[unit]] = true;
     });
 
     unitsWithSynonyms.should.have.keys(units);
