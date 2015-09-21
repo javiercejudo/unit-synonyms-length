@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/javiercejudo/unit-synonyms-length/badge.svg?branch=master)](https://coveralls.io/r/javiercejudo/unit-synonyms-length?branch=master)
 [![Code Climate](https://codeclimate.com/github/javiercejudo/unit-synonyms-length/badges/gpa.svg)](https://codeclimate.com/github/javiercejudo/unit-synonyms-length)
 
-length units synonyms
+Length units synonyms
 
 ## Install
 
@@ -33,5 +33,6 @@ synonyms['degrees fahrenheit']; // => fahrenheit
 
 ## Related projects
 
+- [linear-presets-length](https://github.com/javiercejudo/linear-presets-length): linear presets for length units.
 - [linear-presets](https://github.com/javiercejudo/linear-presets): linear presets for common units.
 - [linear-converter](https://github.com/javiercejudo/linear-converter): flexible linear converter.
